@@ -1,0 +1,16 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - hvplot
+  - xarray
+  - numpy
+  - metpy
+  - cartopy
+  - seawater
+  - gsw
+  - warnings
+prefix: C:\Users\alixg\anaconda3
