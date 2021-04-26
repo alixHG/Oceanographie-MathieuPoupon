@@ -1,20 +1,20 @@
 name: base
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - python=3.8
   - conda=4.10.1
   - conda-build=3.20.5
   - conda-verify=3.4.2
   - jupyter=1.0.0
-  - jupyter-core=4.6.3
   - jupyterlab=2.2.6
   - hvplot=0.7.1
   - json5=0.9.5
   - xarray
-  - pandas
   - numpy
   - metpy
   - cartopy
   - seawater=3.3.4
+  - gsw
+  - warnings
